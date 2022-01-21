@@ -31,6 +31,10 @@ public class PersonDTO {
     @NotEmpty
     @CPF
     private String cpf;
+    
+    @NotEmpty
+    @Email
+    private String email;
 
     @NotNull
     private String birthDate;
